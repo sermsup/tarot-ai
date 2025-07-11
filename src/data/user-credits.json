@@ -1,0 +1,5 @@
+[
+  { "email": "example1@gmail.com", "credit": 5 },
+  { "email": "example2@gmail.com", "credit": 2 },
+  { "email": "sermsup@gmail.com", "credit": 100 }
+]

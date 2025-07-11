@@ -1,0 +1,470 @@
+[
+  {
+    "name": "The Fool",
+    "image": "/cards/the-fool.jpg",
+    "meaning": "New beginnings, spontaneity, free spirit",
+    "meaning_th": "การเริ่มต้นใหม่ ความเป็นธรรมชาติ ความเป็นอิสระ"
+  },
+  {
+    "name": "The Magician",
+    "image": "/cards/the-magician.jpg",
+    "meaning": "Manifestation, resourcefulness, power, inspired action",
+    "meaning_th": "การแสดงออก พรสวรรค์ พลัง การลงมือด้วยแรงบันดาลใจ"
+  },
+  {
+    "name": "The High Priestess",
+    "image": "/cards/the-high-priestess.jpg",
+    "meaning": "Intuition, sacred knowledge, divine feminine",
+    "meaning_th": "สัญชาตญาณ ความรู้ศักดิ์สิทธิ์ พลังหญิง"
+  },
+  {
+    "name": "The Empress",
+    "image": "/cards/the-empress.jpg",
+    "meaning": "Femininity, beauty, nurturing, abundance",
+    "meaning_th": "ความเป็นผู้หญิง ความงาม ความอุดมสมบูรณ์ การเลี้ยงดู"
+  },
+  {
+    "name": "The Emperor",
+    "image": "/cards/the-emperor.jpg",
+    "meaning": "Authority, structure, control, fatherhood",
+    "meaning_th": "อำนาจ โครงสร้าง การควบคุม ความเป็นพ่อ"
+  },
+  {
+    "name": "The Hierophant",
+    "image": "/cards/the-hierophant.jpg",
+    "meaning": "Tradition, spiritual wisdom, institutions",
+    "meaning_th": "ประเพณี ภูมิปัญญาทางจิตวิญญาณ สถาบัน"
+  },
+  {
+    "name": "The Lovers",
+    "image": "/cards/the-lovers.jpg",
+    "meaning": "Love, harmony, partnership, choices",
+    "meaning_th": "ความรัก ความกลมกลืน ความสัมพันธ์ การตัดสินใจ"
+  },
+  {
+    "name": "The Chariot",
+    "image": "/cards/the-chariot.jpg",
+    "meaning": "Control, determination, willpower",
+    "meaning_th": "การควบคุม ความแน่วแน่ พลังจิต"
+  },
+  {
+    "name": "Strength",
+    "image": "/cards/strength.jpg",
+    "meaning": "Courage, patience, inner strength",
+    "meaning_th": "ความกล้าหาญ ความอดทน พลังจากภายใน"
+  },
+  {
+    "name": "The Hermit",
+    "image": "/cards/the-hermit.jpg",
+    "meaning": "Soul-searching, introspection, inner guidance",
+    "meaning_th": "การค้นหาตัวตน การไตร่ตรอง การนำทางภายใน"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "image": "/cards/wheel-of-fortune.jpg",
+    "meaning": "Good luck, karma, destiny, turning point",
+    "meaning_th": "โชคดี กรรม ชะตา จุดเปลี่ยน"
+  },
+  {
+    "name": "Justice",
+    "image": "/cards/justice.jpg",
+    "meaning": "Fairness, truth, law, accountability",
+    "meaning_th": "ความยุติธรรม ความจริง กฎหมาย ความรับผิดชอบ"
+  },
+  {
+    "name": "The Hanged Man",
+    "image": "/cards/the-hanged-man.jpg",
+    "meaning": "Pause, surrender, new perspective",
+    "meaning_th": "หยุดชั่วคราว การยอมรับ มุมมองใหม่"
+  },
+  {
+    "name": "Death",
+    "image": "/cards/death.jpg",
+    "meaning": "Endings, change, transformation, transition",
+    "meaning_th": "จุดจบ การเปลี่ยนแปลง การเปลี่ยนรูปแบบ"
+  },
+  {
+    "name": "Temperance",
+    "image": "/cards/temperance.jpg",
+    "meaning": "Balance, moderation, patience",
+    "meaning_th": "ความสมดุล ความพอดี ความอดทน"
+  },
+  {
+    "name": "The Devil",
+    "image": "/cards/the-devil.jpg",
+    "meaning": "Addiction, materialism, playfulness, shadow self",
+    "meaning_th": "การติด การยึดติดวัตถุ ความสนุกด้านมืด"
+  },
+  {
+    "name": "The Tower",
+    "image": "/cards/the-tower.jpg",
+    "meaning": "Sudden change, upheaval, revelation",
+    "meaning_th": "การเปลี่ยนแปลงฉับพลัน ความปั่นป่วน การเปิดเผย"
+  },
+  {
+    "name": "The Star",
+    "image": "/cards/the-star.jpg",
+    "meaning": "Hope, faith, purpose, renewal",
+    "meaning_th": "ความหวัง ความศรัทธา เป้าหมาย การฟื้นฟู"
+  },
+  {
+    "name": "The Moon",
+    "image": "/cards/the-moon.jpg",
+    "meaning": "Illusion, fear, anxiety, subconscious",
+    "meaning_th": "ภาพลวงตา ความกลัว ความวิตก จิตใต้สำนึก"
+  },
+  {
+    "name": "The Sun",
+    "image": "/cards/the-sun.jpg",
+    "meaning": "Joy, success, positivity, vitality",
+    "meaning_th": "ความสุข ความสำเร็จ พลังชีวิต"
+  },
+  {
+    "name": "Judgement",
+    "image": "/cards/judgement.jpg",
+    "meaning": "Reflection, reckoning, inner calling",
+    "meaning_th": "การไตร่ตรอง การพิจารณา เสียงเรียกจากภายใน"
+  },
+  {
+    "name": "The World",
+    "image": "/cards/the-world.jpg",
+    "meaning": "Completion, accomplishment, travel, integration",
+    "meaning_th": "ความสมบูรณ์ ความสำเร็จ การเดินทาง การหลอมรวม"
+  },
+  {
+    "name": "Ace of Wands",
+    "image": "/cards/ace-of-wands.jpg",
+    "meaning": "New opportunities, prosperity, abundance",
+    "meaning_th": "โอกาสใหม่ ความมั่งคั่ง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Two of Wands",
+    "image": "/cards/two-of-wands.jpg",
+    "meaning": "Balance, adaptability, time management",
+    "meaning_th": "ความสมดุล การปรับตัว การบริหารเวลา"
+  },
+  {
+    "name": "Three of Wands",
+    "image": "/cards/three-of-wands.jpg",
+    "meaning": "Teamwork, collaboration, skill",
+    "meaning_th": "การทำงานเป็นทีม การร่วมมือ ทักษะ"
+  },
+  {
+    "name": "Four of Wands",
+    "image": "/cards/four-of-wands.jpg",
+    "meaning": "Saving, control, security",
+    "meaning_th": "การออม การควบคุม ความมั่นคง"
+  },
+  {
+    "name": "Five of Wands",
+    "image": "/cards/five-of-wands.jpg",
+    "meaning": "Hardship, financial loss, insecurity",
+    "meaning_th": "ความลำบาก การสูญเสียทางการเงิน ความไม่มั่นคง"
+  },
+  {
+    "name": "Six of Wands",
+    "image": "/cards/six-of-wands.jpg",
+    "meaning": "Giving, receiving, sharing wealth",
+    "meaning_th": "การให้ การรับ การแบ่งปันความมั่งคั่ง"
+  },
+  {
+    "name": "Seven of Wands",
+    "image": "/cards/seven-of-wands.jpg",
+    "meaning": "Long-term view, investment, harvest",
+    "meaning_th": "วิสัยทัศน์ระยะยาว การลงทุน การเก็บเกี่ยว"
+  },
+  {
+    "name": "Eight of Wands",
+    "image": "/cards/eight-of-wands.jpg",
+    "meaning": "Skill development, apprenticeship, mastery",
+    "meaning_th": "การพัฒนาทักษะ การฝึกงาน ความเชี่ยวชาญ"
+  },
+  {
+    "name": "Nine of Wands",
+    "image": "/cards/nine-of-wands.jpg",
+    "meaning": "Luxury, self-sufficiency, abundance",
+    "meaning_th": "ความหรูหรา ความพอเพียง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ten of Wands",
+    "image": "/cards/ten-of-wands.jpg",
+    "meaning": "Legacy, family, long-term success",
+    "meaning_th": "มรดก ครอบครัว ความสำเร็จระยะยาว"
+  },
+  {
+    "name": "Page of Wands",
+    "image": "/cards/page-of-wands.jpg",
+    "meaning": "Ambition, diligence, new opportunities",
+    "meaning_th": "ความทะเยอทะยาน ความขยัน โอกาสใหม่"
+  },
+  {
+    "name": "Knight of Wands",
+    "image": "/cards/knight-of-wands.jpg",
+    "meaning": "Responsibility, routine, productivity",
+    "meaning_th": "ความรับผิดชอบ ความเป็นระบบ ประสิทธิภาพ"
+  },
+  {
+    "name": "Queen of Wands",
+    "image": "/cards/queen-of-wands.jpg",
+    "meaning": "Nurturing, practical, provider",
+    "meaning_th": "การดูแล ความเป็นจริง ผู้ให้"
+  },
+  {
+    "name": "King of Wands",
+    "image": "/cards/king-of-wands.jpg",
+    "meaning": "Wealth, discipline, abundance",
+    "meaning_th": "ความมั่งคั่ง วินัย ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ace of Cups",
+    "image": "/cards/ace-of-cups.jpg",
+    "meaning": "New opportunities, prosperity, abundance",
+    "meaning_th": "โอกาสใหม่ ความมั่งคั่ง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Two of Cups",
+    "image": "/cards/two-of-cups.jpg",
+    "meaning": "Balance, adaptability, time management",
+    "meaning_th": "ความสมดุล การปรับตัว การบริหารเวลา"
+  },
+  {
+    "name": "Three of Cups",
+    "image": "/cards/three-of-cups.jpg",
+    "meaning": "Teamwork, collaboration, skill",
+    "meaning_th": "การทำงานเป็นทีม การร่วมมือ ทักษะ"
+  },
+  {
+    "name": "Four of Cups",
+    "image": "/cards/four-of-cups.jpg",
+    "meaning": "Saving, control, security",
+    "meaning_th": "การออม การควบคุม ความมั่นคง"
+  },
+  {
+    "name": "Five of Cups",
+    "image": "/cards/five-of-cups.jpg",
+    "meaning": "Hardship, financial loss, insecurity",
+    "meaning_th": "ความลำบาก การสูญเสียทางการเงิน ความไม่มั่นคง"
+  },
+  {
+    "name": "Six of Cups",
+    "image": "/cards/six-of-cups.jpg",
+    "meaning": "Giving, receiving, sharing wealth",
+    "meaning_th": "การให้ การรับ การแบ่งปันความมั่งคั่ง"
+  },
+  {
+    "name": "Seven of Cups",
+    "image": "/cards/seven-of-cups.jpg",
+    "meaning": "Long-term view, investment, harvest",
+    "meaning_th": "วิสัยทัศน์ระยะยาว การลงทุน การเก็บเกี่ยว"
+  },
+  {
+    "name": "Eight of Cups",
+    "image": "/cards/eight-of-cups.jpg",
+    "meaning": "Skill development, apprenticeship, mastery",
+    "meaning_th": "การพัฒนาทักษะ การฝึกงาน ความเชี่ยวชาญ"
+  },
+  {
+    "name": "Nine of Cups",
+    "image": "/cards/nine-of-cups.jpg",
+    "meaning": "Luxury, self-sufficiency, abundance",
+    "meaning_th": "ความหรูหรา ความพอเพียง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ten of Cups",
+    "image": "/cards/ten-of-cups.jpg",
+    "meaning": "Legacy, family, long-term success",
+    "meaning_th": "มรดก ครอบครัว ความสำเร็จระยะยาว"
+  },
+  {
+    "name": "Page of Cups",
+    "image": "/cards/page-of-cups.jpg",
+    "meaning": "Ambition, diligence, new opportunities",
+    "meaning_th": "ความทะเยอทะยาน ความขยัน โอกาสใหม่"
+  },
+  {
+    "name": "Knight of Cups",
+    "image": "/cards/knight-of-cups.jpg",
+    "meaning": "Responsibility, routine, productivity",
+    "meaning_th": "ความรับผิดชอบ ความเป็นระบบ ประสิทธิภาพ"
+  },
+  {
+    "name": "Queen of Cups",
+    "image": "/cards/queen-of-cups.jpg",
+    "meaning": "Nurturing, practical, provider",
+    "meaning_th": "การดูแล ความเป็นจริง ผู้ให้"
+  },
+  {
+    "name": "King of Cups",
+    "image": "/cards/king-of-cups.jpg",
+    "meaning": "Wealth, discipline, abundance",
+    "meaning_th": "ความมั่งคั่ง วินัย ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ace of Swords",
+    "image": "/cards/ace-of-swords.jpg",
+    "meaning": "New opportunities, prosperity, abundance",
+    "meaning_th": "โอกาสใหม่ ความมั่งคั่ง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Two of Swords",
+    "image": "/cards/two-of-swords.jpg",
+    "meaning": "Balance, adaptability, time management",
+    "meaning_th": "ความสมดุล การปรับตัว การบริหารเวลา"
+  },
+  {
+    "name": "Three of Swords",
+    "image": "/cards/three-of-swords.jpg",
+    "meaning": "Teamwork, collaboration, skill",
+    "meaning_th": "การทำงานเป็นทีม การร่วมมือ ทักษะ"
+  },
+  {
+    "name": "Four of Swords",
+    "image": "/cards/four-of-swords.jpg",
+    "meaning": "Saving, control, security",
+    "meaning_th": "การออม การควบคุม ความมั่นคง"
+  },
+  {
+    "name": "Five of Swords",
+    "image": "/cards/five-of-swords.jpg",
+    "meaning": "Hardship, financial loss, insecurity",
+    "meaning_th": "ความลำบาก การสูญเสียทางการเงิน ความไม่มั่นคง"
+  },
+  {
+    "name": "Six of Swords",
+    "image": "/cards/six-of-swords.jpg",
+    "meaning": "Giving, receiving, sharing wealth",
+    "meaning_th": "การให้ การรับ การแบ่งปันความมั่งคั่ง"
+  },
+  {
+    "name": "Seven of Swords",
+    "image": "/cards/seven-of-swords.jpg",
+    "meaning": "Long-term view, investment, harvest",
+    "meaning_th": "วิสัยทัศน์ระยะยาว การลงทุน การเก็บเกี่ยว"
+  },
+  {
+    "name": "Eight of Swords",
+    "image": "/cards/eight-of-swords.jpg",
+    "meaning": "Skill development, apprenticeship, mastery",
+    "meaning_th": "การพัฒนาทักษะ การฝึกงาน ความเชี่ยวชาญ"
+  },
+  {
+    "name": "Nine of Swords",
+    "image": "/cards/nine-of-swords.jpg",
+    "meaning": "Luxury, self-sufficiency, abundance",
+    "meaning_th": "ความหรูหรา ความพอเพียง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ten of Swords",
+    "image": "/cards/ten-of-swords.jpg",
+    "meaning": "Legacy, family, long-term success",
+    "meaning_th": "มรดก ครอบครัว ความสำเร็จระยะยาว"
+  },
+  {
+    "name": "Page of Swords",
+    "image": "/cards/page-of-swords.jpg",
+    "meaning": "Ambition, diligence, new opportunities",
+    "meaning_th": "ความทะเยอทะยาน ความขยัน โอกาสใหม่"
+  },
+  {
+    "name": "Knight of Swords",
+    "image": "/cards/knight-of-swords.jpg",
+    "meaning": "Responsibility, routine, productivity",
+    "meaning_th": "ความรับผิดชอบ ความเป็นระบบ ประสิทธิภาพ"
+  },
+  {
+    "name": "Queen of Swords",
+    "image": "/cards/queen-of-swords.jpg",
+    "meaning": "Nurturing, practical, provider",
+    "meaning_th": "การดูแล ความเป็นจริง ผู้ให้"
+  },
+  {
+    "name": "King of Swords",
+    "image": "/cards/king-of-swords.jpg",
+    "meaning": "Wealth, discipline, abundance",
+    "meaning_th": "ความมั่งคั่ง วินัย ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ace of Pentacles",
+    "image": "/cards/ace-of-pentacles.jpg",
+    "meaning": "New opportunities, prosperity, abundance",
+    "meaning_th": "โอกาสใหม่ ความมั่งคั่ง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Two of Pentacles",
+    "image": "/cards/two-of-pentacles.jpg",
+    "meaning": "Balance, adaptability, time management",
+    "meaning_th": "ความสมดุล การปรับตัว การบริหารเวลา"
+  },
+  {
+    "name": "Three of Pentacles",
+    "image": "/cards/three-of-pentacles.jpg",
+    "meaning": "Teamwork, collaboration, skill",
+    "meaning_th": "การทำงานเป็นทีม การร่วมมือ ทักษะ"
+  },
+  {
+    "name": "Four of Pentacles",
+    "image": "/cards/four-of-pentacles.jpg",
+    "meaning": "Saving, control, security",
+    "meaning_th": "การออม การควบคุม ความมั่นคง"
+  },
+  {
+    "name": "Five of Pentacles",
+    "image": "/cards/five-of-pentacles.jpg",
+    "meaning": "Hardship, financial loss, insecurity",
+    "meaning_th": "ความลำบาก การสูญเสียทางการเงิน ความไม่มั่นคง"
+  },
+  {
+    "name": "Six of Pentacles",
+    "image": "/cards/six-of-pentacles.jpg",
+    "meaning": "Giving, receiving, sharing wealth",
+    "meaning_th": "การให้ การรับ การแบ่งปันความมั่งคั่ง"
+  },
+  {
+    "name": "Seven of Pentacles",
+    "image": "/cards/seven-of-pentacles.jpg",
+    "meaning": "Long-term view, investment, harvest",
+    "meaning_th": "วิสัยทัศน์ระยะยาว การลงทุน การเก็บเกี่ยว"
+  },
+  {
+    "name": "Eight of Pentacles",
+    "image": "/cards/eight-of-pentacles.jpg",
+    "meaning": "Skill development, apprenticeship, mastery",
+    "meaning_th": "การพัฒนาทักษะ การฝึกงาน ความเชี่ยวชาญ"
+  },
+  {
+    "name": "Nine of Pentacles",
+    "image": "/cards/nine-of-pentacles.jpg",
+    "meaning": "Luxury, self-sufficiency, abundance",
+    "meaning_th": "ความหรูหรา ความพอเพียง ความอุดมสมบูรณ์"
+  },
+  {
+    "name": "Ten of Pentacles",
+    "image": "/cards/ten-of-pentacles.jpg",
+    "meaning": "Legacy, family, long-term success",
+    "meaning_th": "มรดก ครอบครัว ความสำเร็จระยะยาว"
+  },
+  {
+    "name": "Page of Pentacles",
+    "image": "/cards/page-of-pentacles.jpg",
+    "meaning": "Ambition, diligence, new opportunities",
+    "meaning_th": "ความทะเยอทะยาน ความขยัน โอกาสใหม่"
+  },
+  {
+    "name": "Knight of Pentacles",
+    "image": "/cards/knight-of-pentacles.jpg",
+    "meaning": "Responsibility, routine, productivity",
+    "meaning_th": "ความรับผิดชอบ ความเป็นระบบ ประสิทธิภาพ"
+  },
+  {
+    "name": "Queen of Pentacles",
+    "image": "/cards/queen-of-pentacles.jpg",
+    "meaning": "Nurturing, practical, provider",
+    "meaning_th": "การดูแล ความเป็นจริง ผู้ให้"
+  },
+  {
+    "name": "King of Pentacles",
+    "image": "/cards/king-of-pentacles.jpg",
+    "meaning": "Wealth, discipline, abundance",
+    "meaning_th": "ความมั่งคั่ง วินัย ความอุดมสมบูรณ์"
+  }
+]
