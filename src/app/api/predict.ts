@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
           { role: 'system', content: 'You are a tarot reading assistant. Answer in both English and Thai.' },
           { role: 'user', content: prompt },
         ],
-        max_tokens: 600,
+        max_tokens: 1200,
         temperature: 0.8,
       }),
     });

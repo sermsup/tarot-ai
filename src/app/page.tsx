@@ -25,14 +25,23 @@ export default function HomePage() {
     }
   }, [session?.user?.email]);
 
-  const handleAsk = () => {
+  const handleAsk = async () => {
     if (!question.trim()) {
       setShowAlert(true);
       return;
     }
-    if (credit !== null && credit <= 0) {
-      setShowCreditAlert(true);
-      return;
+    if (session?.user?.email) {
+      try {
+        const res = await fetch(`/api/user-credit?email=${encodeURIComponent(session.user.email)}`);
+        const data = await res.json();
+        if (typeof data.credit === 'number' && data.credit < 5) {
+          setShowCreditAlert(true);
+          return;
+        }
+      } catch (e) {
+        setShowCreditAlert(true);
+        return;
+      }
     }
     setAskedQuestion(question);
     setShowModal(true);
@@ -52,13 +61,44 @@ export default function HomePage() {
         {showModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
             <div className="bg-white bg-opacity-90 backdrop-blur-md rounded-2xl p-8 shadow-2xl max-w-md w-full text-center relative">
+              <button
+                onClick={() => setShowModal(false)}
+                className="absolute top-4 right-4 text-red-600 hover:text-red-800 text-3xl font-bold focus:outline-none"
+                aria-label="Close"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-8 h-8">
+                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.5" fill="none" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 9l6 6m0-6l-6 6" />
+                </svg>
+              </button>
               <h2 className="text-2xl font-bold text-purple-700 mb-4">Your Question</h2>
               <div className="flex flex-col items-center mb-6">
                 <span className="text-base text-purple-500 font-semibold mb-1 tracking-wide uppercase">You asked</span>
                 <span className="text-lg text-gray-800 font-medium italic bg-purple-50 px-4 py-2 rounded-xl border border-purple-200 shadow-sm">"{askedQuestion}"</span>
               </div>
               <button
-                onClick={() => { setShowModal(false); router.push(`/draw?q=${encodeURIComponent(question)}`); }}
+                onClick={async () => {
+                  if (!session?.user?.email) return;
+                  // Reduce credit by 5 before navigating
+                  try {
+                    const res = await fetch('/api/user-credit', {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ email: session.user.email, amount: 5 })
+                    });
+                    const data = await res.json();
+                    if (res.ok) {
+                      setShowModal(false);
+                      router.push(`/draw?q=${encodeURIComponent(question)}`);
+                    } else {
+                      setShowModal(false);
+                      setShowCreditAlert(true);
+                    }
+                  } catch {
+                    setShowModal(false);
+                    setShowCreditAlert(true);
+                  }
+                }}
                 className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-xl text-base font-medium transition-all"
               >
                 Predict your horoscope
